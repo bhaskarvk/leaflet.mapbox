@@ -1,0 +1,32 @@
+Package: leaflet.mapbox
+Type: Package
+Title: Mapbox.js Support for Leaflet Widget
+Version: 0.1.0
+Authors@R: person("Bhaskar", "Karambelkar", email = "bhaskarvk@gmail.com",
+    role = c("aut", "cre"))
+Description: Addon package for Leaflet that supports Mapbox.js
+    Mapbox.js supports several Mapbox specific extensions to the Leaflet library.
+    This package is intended for using those extensions with the Leaflet package.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 3.1.0),
+    leaflet (>= 1.0.2.9008),
+Imports:
+    shiny,
+    htmlwidgets,
+    htmltools,
+    magrittr
+Suggests: V8,
+    dplyr,
+    geojsonio,
+    purrr,
+    readr,
+    stringr,
+    rmapshaper,
+    htmlTable,
+    memoise
+URL: https://github.com/bhaskarvk/leaflet.mapbox
+BugReports: https://github.com/bhaskarvk/leaflet.mapbox/issues
+RoxygenNote: 5.0.1
