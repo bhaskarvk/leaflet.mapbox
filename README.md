@@ -11,7 +11,7 @@ Mapbox.js provides several mapbox specific extensions which should be natively a
 
 ``` r
 # For now you will need to build leaflet using a branch of mine
-devtools::install_github('bhaskarvk/leaflet@develop')
+devtools::install_github('rstudio/leaflet')
 
 devtools::install_github('bhaskarvk/leaflet.mapbox')
 
